@@ -2,66 +2,40 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Kumbh Sans", sans-serif;
 }
 
 body {
-  background-color: #2f2f35;
+  background-color: #d9dcd6;
 }
-/*---CONTAINER*/
+/* header section*/
 
 .header {
   padding: 20px;
-  background-color: black;
-  color: #f0f8ff;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
-  z-index: 1;
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 50px;
-}
-
-#logo {
-  background-color: #82b74b;
-  background-image: linear-gradient(to top, #405d27 0%, #82b74b 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+.header h1 {
   display: inline-block;
-  align-items: stretch;
-  position: relative;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 3rem;
-}
-.menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  text-align: center;
+  font-size: 48px;
 }
 
-.header div {
+.header h1 .seo {
+  color: #d9dcd6;
+}
+/*menu section*/
+
+.menu {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+}
+.header div ul {
+  list-style-type: none;
 }
 
 .header div ul li {
@@ -72,6 +46,12 @@ body {
 a {
   color: #ffffff;
   text-decoration: none;
+}
+
+/*mouse over link*/
+
+a:hover {
+  color: blue;
 }
 
 p {
