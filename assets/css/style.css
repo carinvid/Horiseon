@@ -26,7 +26,7 @@ body {
   color: #d9dcd6;
 }
 
-/*menu section*/
+/*nav menu section*/
 
 .menu {
   padding-top: 15px;
@@ -69,12 +69,14 @@ a:hover {
 p {
   font-size: 20px;
 }
-/* content section*/
+/* article content section*/
 
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
+  padding-bottom: 0px;
+  height: max-content;
 }
 
 .content-section {
@@ -105,7 +107,7 @@ p {
   margin-left: 25px;
 }
 
-/*benefits section*/
+/*aside section*/
 
 .benefits {
   margin-right: 20px;
@@ -115,6 +117,8 @@ p {
   width: 20%;
   height: 100%;
   background-color: #2589bd;
+  padding-bottom: 0px;
+  height: max-content;
 }
 
 .benefit-brand {
@@ -145,4 +149,27 @@ p {
 
 .footer h2 {
   font-size: 20px;
+}
+
+/*@media screen and (max-width: 600px) {
+  .header {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .hero {
+    width: 100%;
+  }
+  .menu a {
+    float: none;
+    width: 100%;
+  }
+  .content {
+    width: 60%;
+  }
+  .benefits {
+    width: 35%;
+  }
 }
